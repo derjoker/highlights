@@ -17,7 +17,7 @@ title: Highlights & Recall.
 email: fengya09@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   古诗文，摘录，经典对白，语言学习。
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/highlights" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: fengya04
 github_username:  derjoker
