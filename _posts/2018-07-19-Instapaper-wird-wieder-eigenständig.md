@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Instapaper wird wieder eigenständig"
+---
+Das Instapaper-Team hat seinen **Später-lesen-Dienst** (稍后读) von Pinterest zurückgekauft. Europäische Nutzer bleiben derweil wegen der DSGVO **ausgesperrt**.
+
+Der beliebte Später-lesen-Dienst Instapaper **verlässt** Pinterest und wird wieder **unabhängig**: Das Entwickler-Team hat den Dienst zurückgekauft. "Wir möchten betonen, dass **sich** für Instapaper nicht viel **ändert**", schreibt das Team. Der Dienst werde **weiterhin** von den **selben** (同一批) Leuten weiterentwickelt, die schon in den vergangenen fünf Jahren an Instapaper **gearbeitet** haben. Das Team **bedankte sich** bei Pinterest für die gute Zusammenarbeit. In dieser zweijährigen Phase haben die Entwickler eine Firefox-**Erweiterung** gebaut und den Dienst für Mobilgeräte optimiert. Der Besitzerwechsel soll nach einer Wartezeit in 21 Tagen **vollzogen** (执行，实施) werden.
+
+Für europäische Nutzer ist Instapaper seit einer **Weile** offiziell nicht zu **erreichen**: Wegen der Datenschutz-**Grundverordnung** (DSGVO 通用数据保护条例) sperrte der Dienst fast alle Europäer kurzerhand aus. Instapaper und Pinterest hatten es offenbar **verschlafen** (睡过头，错过，忘记), den Dienst DSGVO-**konform** zu machen. In der zweijährigen **Übergangsfrist** (过渡期) **wäre** durchaus genügend Zeit **gewesen**, den neuen Erfordernissen **nachzukommen** (完成，实现). Der Dienst soll aber "so schnell wie möglich" und "in **naher** Zukunft" wieder **verfügbar** sein, bekräftigte Instapaper **abermals** (再次) via Twitter.
+
+Seinen Anfang **nahm** Instapaper 2008 als "kleines Nebenprojekt" von Marco Arment, dem Mitgründer von Tumblr. Er **verkaufte** sein Projekt 2013 **zunächst** an Betaworks, eine Firma, die auch schon den Social-Bookmarks-Dienst Digg **übernommen** hatte. Im Sommer 2016 übernahm dann Pinterest das Team und die Technik **hinter** Instapaper. Der Bilder-Sammler wollte das **erworbene** Know-how verwenden, um "das Entdecken und Speichern von Artikeln über Pinterest zu vereinfachen". Wirklich **geklappt** hat das offenbar nicht, immerhin blieb Instapaper als eigener Dienst **bestehen**. Pinterest ist heute dank virtueller Pinnwände eine der beliebtesten Bilder-Plattformen im Internet.
