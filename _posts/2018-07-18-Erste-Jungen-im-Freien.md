@@ -2,8 +2,6 @@
 layout: post
 title: "Erste Jungen im Freien"
 ---
-### [Erste Jungen im Freien](https://www.deutschlandfunk.de/thailand-erste-jungen-im-freien.1939.de.html?drn:news_id=901191)
-
 In Thailand sind die ersten der in einer **Höhle** (洞穴) **eingeschlossenen** (被困) Jungen gerettet worden. Wie der Einsatzleiter **bekanntgab**, konnten bisher vier die Höhle verlassen. Sie seien in ärztlicher **Behandlung**. Zunächst war **von** sechs Geretteten **die Rede**.
 
 Nach Angaben der **Behörden** wird der Einsatz morgen **fortgesetzt** (继续). Es **sind** noch acht weitere Jungen sowie ein Erwachsener in der Höhle. Der vier Kilometer lange Weg ins Freie kann streckenweise nur **tauchend** (潜水) **zurückgelegt** werden.
