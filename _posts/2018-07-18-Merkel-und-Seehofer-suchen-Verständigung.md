@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: hl-post
 title: "Merkel und Seehofer suchen Verständigung"
 ---
 Im Streit über den Brexit-Brief **bemühen** sich Innenminister Seehofer und Kanzlerin Merkel um **Verständigung** (一致，理解).

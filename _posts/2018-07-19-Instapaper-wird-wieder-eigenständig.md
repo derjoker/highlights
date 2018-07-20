@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: hl-post
 title: "Instapaper wird wieder eigenständig"
 ---
 Das Instapaper-Team hat seinen **Später-lesen-Dienst** (稍后读) von Pinterest zurückgekauft. Europäische Nutzer bleiben derweil wegen der DSGVO **ausgesperrt**.

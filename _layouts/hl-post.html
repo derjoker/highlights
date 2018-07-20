@@ -1,0 +1,21 @@
+---
+layout: post
+---
+<style type="text/css">
+  .highlight {
+    color: #FBD26B;
+    background-color: #FBD26B;
+  }
+</style>
+<script>
+  window.onload = () => {
+    document.querySelector('article').addEventListener('click', event => {
+      document
+        .querySelectorAll('article strong')
+        .forEach(highlight => highlight.classList.toggle('highlight'))
+    })
+  }
+</script>
+<div class="hl-content e-content" itemprop="articleBody">
+  {{ content }}
+</div>

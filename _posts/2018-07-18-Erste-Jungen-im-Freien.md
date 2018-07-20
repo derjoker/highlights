@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: hl-post
 title: "Erste Jungen im Freien"
 ---
 In Thailand sind die ersten der in einer **Höhle** (洞穴) **eingeschlossenen** (被困) Jungen gerettet worden. Wie der Einsatzleiter **bekanntgab**, konnten bisher vier die Höhle verlassen. Sie seien in ärztlicher **Behandlung**. Zunächst war **von** sechs Geretteten **die Rede**.

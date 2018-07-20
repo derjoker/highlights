@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: hl-post
 title: "Noch mehr Tote durch Unwetter"
 ---
 Die Zahl der durch die schweren **Unwetter** (恶劣天气) in Japan ums Leben **gekommenen** Menschen ist auf mindestens 65 **gestiegen**.
