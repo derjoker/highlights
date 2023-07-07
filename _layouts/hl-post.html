@@ -2,28 +2,28 @@
 layout: post
 ---
 <style type="text/css">
-  #readme strong {
+  article strong {
     color: #ffa657;
   }
-  #readme .del-grey {
+  article .del-grey {
     opacity: 0.6;
   }
-  #readme p.hidden {
+  article p.hidden {
     opacity: 0;
   }
 </style>
 <script>
   window.onload = () => {
-    const pg = document.querySelector('#readme');
+    const article = document.querySelector('article');
 
-    pg.querySelectorAll('del').forEach(d => {
+    article.querySelectorAll('del').forEach(d => {
       const s = document.createElement('span');
       s.textContent = d.textContent;
       s.className = 'del-grey';
       d.replaceWith(s);
     });
     
-    pg.querySelectorAll('strong').forEach(s => {
+    article.querySelectorAll('strong').forEach(s => {
       // original data in highlight
       const x = s.textContent;
       s.setAttribute('data-x', x);
@@ -39,7 +39,7 @@ layout: post
       });
     });
 
-    pg.querySelectorAll('p').forEach((p, key) => {
+    article.querySelectorAll('p').forEach((p, key) => {
       if (key % 2 === 1) {
         p.classList.add('hidden');
         p.addEventListener('click', event => {
@@ -54,30 +54,30 @@ layout: post
     document.body.addEventListener('click', () => {
       counter += 1;
       if (counter % 3 === 0) {
-        pg.querySelectorAll('strong').forEach(s => {
+        article.querySelectorAll('strong').forEach(s => {
           s.textContent = s.getAttribute('data-x');
         });
-        pg.querySelectorAll('p').forEach((p, key) => {
+        article.querySelectorAll('p').forEach((p, key) => {
           if (key % 2 === 1) {
             p.classList.add('hidden');
           }
         });
       } 
       if (counter % 3 === 1) {
-        pg.querySelectorAll('strong').forEach(s => {
+        article.querySelectorAll('strong').forEach(s => {
           s.textContent = s.getAttribute('data-y');
         });
-        pg.querySelectorAll('p').forEach((p, key) => {
+        article.querySelectorAll('p').forEach((p, key) => {
           if (key % 2 === 1) {
             p.classList.add('hidden');
           }
         });
       }
       if (counter % 3 === 2) {
-        pg.querySelectorAll('strong').forEach(s => {
+        article.querySelectorAll('strong').forEach(s => {
           s.textContent = s.getAttribute('data-x');
         });
-        pg.querySelectorAll('p').forEach((p, key) => {
+        article.querySelectorAll('p').forEach((p, key) => {
           if (key % 2 === 1) {
             p.classList.remove('hidden');
           }
