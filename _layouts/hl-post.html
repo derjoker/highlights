@@ -2,28 +2,28 @@
 layout: post
 ---
 <style type="text/css">
-  article strong {
+  #hl strong {
     color: #ffa657;
   }
-  article .del-grey {
+  #hl .del-grey {
     opacity: 0.6;
   }
-  article p.hidden {
+  #hl p.hidden {
     opacity: 0;
   }
 </style>
 <script>
   window.onload = () => {
-    const article = document.querySelector('article');
+    const hl = document.getElementById('hl');
 
-    article.querySelectorAll('del').forEach(d => {
+    hl.querySelectorAll('del').forEach(d => {
       const s = document.createElement('span');
       s.textContent = d.textContent;
       s.className = 'del-grey';
       d.replaceWith(s);
     });
     
-    article.querySelectorAll('strong').forEach(s => {
+    hl.querySelectorAll('strong').forEach(s => {
       // original data in highlight
       const x = s.textContent;
       s.setAttribute('data-x', x);
@@ -39,7 +39,7 @@ layout: post
       });
     });
 
-    article.querySelectorAll('p').forEach((p, key) => {
+    hl.querySelectorAll('p').forEach((p, key) => {
       if (key % 2 === 1) {
         p.classList.add('hidden');
         p.addEventListener('click', event => {
@@ -54,30 +54,30 @@ layout: post
     document.body.addEventListener('click', () => {
       counter += 1;
       if (counter % 3 === 0) {
-        article.querySelectorAll('strong').forEach(s => {
+        hl.querySelectorAll('strong').forEach(s => {
           s.textContent = s.getAttribute('data-x');
         });
-        article.querySelectorAll('p').forEach((p, key) => {
+        hl.querySelectorAll('p').forEach((p, key) => {
           if (key % 2 === 1) {
             p.classList.add('hidden');
           }
         });
       } 
       if (counter % 3 === 1) {
-        article.querySelectorAll('strong').forEach(s => {
+        hl.querySelectorAll('strong').forEach(s => {
           s.textContent = s.getAttribute('data-y');
         });
-        article.querySelectorAll('p').forEach((p, key) => {
+        hl.querySelectorAll('p').forEach((p, key) => {
           if (key % 2 === 1) {
             p.classList.add('hidden');
           }
         });
       }
       if (counter % 3 === 2) {
-        article.querySelectorAll('strong').forEach(s => {
+        hl.querySelectorAll('strong').forEach(s => {
           s.textContent = s.getAttribute('data-x');
         });
-        article.querySelectorAll('p').forEach((p, key) => {
+        hl.querySelectorAll('p').forEach((p, key) => {
           if (key % 2 === 1) {
             p.classList.remove('hidden');
           }
@@ -86,6 +86,6 @@ layout: post
     });
   }
 </script>
-<div class="hl-content e-content" itemprop="articleBody">
+<div id="hl" class="hl-content e-content" itemprop="articleBody">
   {{ content }}
 </div>
