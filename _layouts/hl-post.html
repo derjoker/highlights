@@ -22,22 +22,6 @@ layout: post
       s.className = 'del-grey';
       d.replaceWith(s);
     });
-    
-    hl.querySelectorAll('strong').forEach(s => {
-      // original data in highlight
-      const x = s.textContent;
-      s.setAttribute('data-x', x);
-
-      // new data in parenthesis
-      const y = s.nextSibling.textContent.replace('(', '').split(')')[0];
-      s.nextSibling.textContent = s.nextSibling.textContent.replace('(' + y + ')', '');
-      s.setAttribute('data-y', y);
-
-      s.addEventListener('click', event => {
-        s.textContent = s.textContent === x ? y : x;
-        event.stopPropagation();
-      });
-    });
 
     hl.querySelectorAll('p').forEach((p, key) => {
       if (key % 2 === 1) {
@@ -49,34 +33,18 @@ layout: post
       }
     });
 
-    let counter = 0;
+    let hidden = true;
 
     document.body.addEventListener('click', () => {
-      counter += 1;
-      if (counter % 3 === 0) {
-        hl.querySelectorAll('strong').forEach(s => {
-          s.textContent = s.getAttribute('data-x');
-        });
+      hidden = !hidden;
+
+      if (hidden) {
         hl.querySelectorAll('p').forEach((p, key) => {
           if (key % 2 === 1) {
             p.classList.add('hidden');
           }
         });
-      } 
-      if (counter % 3 === 1) {
-        hl.querySelectorAll('strong').forEach(s => {
-          s.textContent = s.getAttribute('data-y');
-        });
-        hl.querySelectorAll('p').forEach((p, key) => {
-          if (key % 2 === 1) {
-            p.classList.add('hidden');
-          }
-        });
-      }
-      if (counter % 3 === 2) {
-        hl.querySelectorAll('strong').forEach(s => {
-          s.textContent = s.getAttribute('data-x');
-        });
+      } else {
         hl.querySelectorAll('p').forEach((p, key) => {
           if (key % 2 === 1) {
             p.classList.remove('hidden');

@@ -4,7 +4,7 @@ title: "Die Prinzipien des Erfolgs (1)"
 tags: Deutsch
 ---
 
-## 规划先于行动
+### 规划先于行动
 
 太多人犯的错误是，
 
@@ -18,7 +18,7 @@ dass sie so gut wie keine Zeit mit der Planung verbringen, weil sie nur an die U
 
 Aber vergessen Sie nicht: Planen kommt vor dem Machen!
 
-## 找出真相
+### 找出真相
 
 要有效行事，
 
@@ -48,7 +48,7 @@ schlechtere Entscheidungen treffen
 
 und Ihr Potenzial nicht nutzen.
 
-## 思维盲点
+### 思维盲点
 
 除了自我意识障碍之外，
 
@@ -78,7 +78,7 @@ so ist auch unsere Fähigkeit, Dinge zu sehen und zu verstehen, unterschiedlich 
 
 Jeder von uns sieht die Welt auf seine eigene Weise.
 
-## 头脑封闭的代价
+### 头脑封闭的代价
 
 如果你跟大多数人一样，
 
@@ -124,7 +124,7 @@ Er führt dazu, dass Sie alle möglichen wunderbaren Möglichkeiten und gefährl
 
 Und er blockiert Kritik, die konstruktiv oder sogar lebensrettend sein kann.
 
-## 他人的想法
+### 他人的想法
 
 这种无法从其他人的想法中获益的现象，
 
