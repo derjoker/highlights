@@ -3,7 +3,9 @@ Highlights &amp; Recall.
 
 ## Usage
 
-古诗文，摘录，经典对白，语言学习。
+译学法实践：阅读，摘录，翻译。
+
+[Highlights & Recall.](https://derjoker.github.io/highlights/)
 
 ## Contributing
 
