@@ -10,9 +10,15 @@ tags: Deutsch
 
 Zu viele Menschen machen den Fehler, 
 
-一心想着执行，所以几乎不花时间来规划。
+> 一心想着执行，所以几乎不花时间来规划。
 
-dass sie so gut wie keine Zeit mit der Planung verbringen, weil sie nur an die Umsetzung denken.
+几乎不花时间来规划，
+
+dass sie so gut wie keine Zeit mit der Planung verbringen,
+
+因为一心想着执行。
+
+weil sie nur an die Umsetzung denken.
 
 谨记：规划先于行动！
 
@@ -28,9 +34,17 @@ Um effektiv zu sein,
 
 dürfen Sie nicht zulassen,
 
-“想要自己正确”的需求压倒“找出真相”的需求。
+“想要自己正确”的需求
 
-dass Ihr Bedürfnis, recht zu haben, wichtiger wird als Ihr Bedürfnis, herauszufinden, was richtig ist.
+dass Ihr Bedürfnis, recht zu haben,
+
+压倒
+
+wichtiger wird als
+
+“找出真相”的需求。
+
+Ihr Bedürfnis, herauszufinden, was richtig ist.
 
 如果你对自己掌握的知识和擅长的事情过于自豪，
 
@@ -66,13 +80,25 @@ Bereiche, in denen Ihre Art des Denkens verhindert,
 
 dass Sie Dinge richtig sehen.
 
-就像人类的辨音辨色能力有差异一样，
+> 就像人类的辨音辨色能力有差异一样，
 
-So wie jeder von uns über eine unterschiedliche Bandbreite beim Hören von Frequenzen und beim Erkennen von Farben verfügt,
+<!-- So wie jeder von uns über eine unterschiedliche Bandbreite beim Hören von Frequenzen und beim Erkennen von Farben verfügt, -->
 
-我们认知和理解事物的能力也有差异。
+就像人类的[...]能力有差异一样，
 
-so ist auch unsere Fähigkeit, Dinge zu sehen und zu verstehen, unterschiedlich stark ausgeprägt.
+So wie jeder von uns über eine unterschiedliche Bandbreite [...] verfügt,
+
+[辨音辨色]
+
+[beim Hören von Frequenzen und beim Erkennen von Farben]
+
+我们认知和理解事物的能力
+
+so ist auch unsere Fähigkeit, Dinge zu sehen und zu verstehen,
+
+也有差异。
+
+unterschiedlich stark ausgeprägt.
 
 我们以自己的方式看待事物。
 
@@ -84,19 +110,27 @@ Jeder von uns sieht die Welt auf seine eigene Weise.
 
 Wenn Sie so wie die meisten Menschen sind,
 
-那么你就不会明白其他人看待事物的方式，
+那么你就不会明白
 
-haben Sie keine Ahnung von der Sichtweise anderer Menschen,
+haben Sie keine Ahnung
 
-也不善于探求其他人的想法，
+其他人看待事物的方式，
 
-und Sie sind nicht gut darin, zu verstehen, was sie denken,
+von der Sichtweise anderer Menschen,
+
+也不善于
+
+und Sie sind nicht gut darin,
+
+探求其他人的想法，
+
+zu verstehen, was sie denken,
 
 因为你一心只想着
 
 denn Sie sind einfach zu sehr damit beschäftigt,
 
-告诉对方自己认为正确的想法。
+告诉对方自己~~认为正确~~的想法。
 
 den anderen Ihre Sichtweise mitzuteilen.
 
@@ -116,13 +150,37 @@ und nehmen zu viel an.
 
 Dieser Mangel an Aufgeschlossenheit ist schrecklich kostspielig.
 
-当其他人向你展示各种美妙的可能性和可怕的威胁时，你会视而不见；
+> 当其他人向你展示各种美妙的可能性和可怕的威胁时，你会视而不见；
 
-Er führt dazu, dass Sie alle möglichen wunderbaren Möglichkeiten und gefährlichen Bedrohungen übersehen, auf die andere Sie hinweisen könnten.
+它使得你对
 
-当其他人提出可能是建设性甚至能救命的批评时，你也不能领会。
+Er führt dazu, dass Sie
 
-Und er blockiert Kritik, die konstruktiv oder sogar lebensrettend sein kann.
+各种美妙的可能性
+
+alle möglichen wunderbaren Möglichkeiten
+
+和可怕的威胁
+
+und gefährlichen Bedrohungen
+
+视而不见
+
+übersehen,
+
+当其他人向你展示时。
+
+auf die andere Sie hinweisen könnten.
+
+> 当其他人提出可能是建设性甚至能救命的批评时，你也不能领会。
+
+你也不能领会
+
+Und er blockiert Kritik,
+
+建设性甚至能救命的批评。
+
+die konstruktiv oder sogar lebensrettend sein kann.
 
 ### 他人的想法
 
