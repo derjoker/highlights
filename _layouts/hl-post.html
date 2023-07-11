@@ -23,7 +23,7 @@ layout: post
       d.replaceWith(s);
     });
 
-    hl.querySelectorAll('p').forEach((p, key) => {
+    hl.querySelectorAll(':scope > p').forEach((p, key) => {
       if (key % 2 === 1) {
         p.classList.add('hidden');
         p.addEventListener('click', event => {
@@ -39,13 +39,13 @@ layout: post
       hidden = !hidden;
 
       if (hidden) {
-        hl.querySelectorAll('p').forEach((p, key) => {
+        hl.querySelectorAll(':scope > p').forEach((p, key) => {
           if (key % 2 === 1) {
             p.classList.add('hidden');
           }
         });
       } else {
-        hl.querySelectorAll('p').forEach((p, key) => {
+        hl.querySelectorAll(':scope > p').forEach((p, key) => {
           if (key % 2 === 1) {
             p.classList.remove('hidden');
           }
