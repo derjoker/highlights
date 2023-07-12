@@ -2,6 +2,11 @@
 layout: post
 ---
 <style type="text/css">
+  #hl h3 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
   #hl strong {
     color: #ffa657;
   }
@@ -33,24 +38,27 @@ layout: post
       }
     });
 
-    let hidden = true;
-
-    document.body.addEventListener('click', () => {
-      hidden = !hidden;
-
-      if (hidden) {
-        hl.querySelectorAll(':scope > p').forEach((p, key) => {
-          if (key % 2 === 1) {
-            p.classList.add('hidden');
-          }
-        });
-      } else {
-        hl.querySelectorAll(':scope > p').forEach((p, key) => {
+    hl.querySelectorAll('h3').forEach(h => {
+      const button = document.createElement('button');
+      button.textContent = '显示';
+      button.addEventListener('click', () => {
+        if (button.textContent === '显示') {
+          button.textContent = '隐藏';
+          hl.querySelectorAll(':scope > p').forEach((p, key) => {
           if (key % 2 === 1) {
             p.classList.remove('hidden');
           }
         });
-      }
+        } else {
+          button.textContent = '显示';
+          hl.querySelectorAll(':scope > p').forEach((p, key) => {
+          if (key % 2 === 1) {
+            p.classList.add('hidden');
+          }
+        });
+        }
+      });
+      h.append(button);
     });
   }
 </script>
