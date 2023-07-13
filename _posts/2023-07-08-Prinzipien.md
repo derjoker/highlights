@@ -214,9 +214,17 @@ statt all das wunderbare Denken zu nutzen,
 
 das ihnen zur Verfügung steht.
 
-结果是他们不断地跑向自己看到的东西，
+结果是
 
-Als Folge davon rennen sie ständig in die Richtung von dem, was sie sehen,
+Als Folge davon
+
+他们不断地跑向
+
+rennen sie ständig in die Richtung von dem,
+
+自己看到的东西，
+
+was sie sehen,
 
 不断地在自己的盲点上撞墙，
 
