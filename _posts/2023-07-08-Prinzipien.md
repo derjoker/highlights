@@ -196,17 +196,23 @@ zeigt sich nicht nur bei Meinungsverschiedenheiten,
 
 sondern immer, wenn Menschen auf Probleme stoßen und sie zu lösen versuchen.
 
-大多数人在试图弄明白某件事时
+> 大多数人在试图弄明白某件事时是在自己的脑子里思索，而不是参考所有他们能得到的好想法。
+
+在试图弄明白某件事时
 
 Um etwas herauszufinden,
 
-是在自己的脑子里思索，
+大多数人是在自己的脑子里思索，
 
 kreisen die Gedanken der meisten Leute im eigenen Kopf,
 
-而不是参考所有他们能得到的好想法。
+而不是参考所有[...]的好想法。
 
-statt all das wunderbare Denken zu nutzen, das ihnen zur Verfügung steht.
+statt all das wunderbare Denken zu nutzen,
+
+[他们能得到]
+
+das ihnen zur Verfügung steht.
 
 结果是他们不断地跑向自己看到的东西，
 
