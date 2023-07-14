@@ -1,11 +1,11 @@
 # highlights
-Highlights &amp; Recall.
+Read &amp; Recall.
 
 ## Usage
 
 译学法实践：阅读，摘录，翻译。
 
-[Highlights & Recall.](https://derjoker.github.io/highlights/)
+[Read & Recall.](https://derjoker.github.io/highlights/)
 
 ## Contributing
 
