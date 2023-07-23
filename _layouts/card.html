@@ -1,0 +1,72 @@
+---
+layout: post
+---
+<style type="text/css">
+  article > header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: lightgrey;
+  }
+  article > header > h1 > button {
+    font-size: 0.5em;
+    position: absolute;
+    right: 0;
+  }
+  #hl strong {
+    color: #ffa657;
+  }
+  #hl .del-grey {
+    opacity: 0.6;
+  }
+  #hl p.hidden {
+    opacity: 0;
+  }
+</style>
+<script>
+  window.onload = () => {
+    const card = document.getElementById('card');
+
+    card.querySelectorAll('del').forEach(d => {
+      const s = document.createElement('span');
+      s.textContent = d.textContent;
+      s.className = 'del-grey';
+      d.replaceWith(s);
+    });
+
+    card.querySelectorAll(':scope > p').forEach((p, key) => {
+      if (key % 2 === 1) {
+        p.classList.add('hidden');
+        p.addEventListener('click', event => {
+          p.classList.toggle('hidden');
+          event.stopPropagation();
+        });
+      }
+    });
+
+    const button = document.createElement('button');
+    button.textContent = '显示';
+    button.addEventListener('click', () => {
+      if (button.textContent === '显示') {
+        button.textContent = '隐藏';
+        card.querySelectorAll(':scope > p').forEach((p, key) => {
+        if (key % 2 === 1) {
+          p.classList.remove('hidden');
+        }
+      });
+      } else {
+        button.textContent = '显示';
+        card.querySelectorAll(':scope > p').forEach((p, key) => {
+        if (key % 2 === 1) {
+          p.classList.add('hidden');
+        }
+      });
+      }
+    });
+
+    document.querySelector('article > header > h1').appendChild(button);
+  }
+</script>
+<div id="card" class="card-content e-content" itemprop="articleBody">
+  {{ content }}
+</div>
