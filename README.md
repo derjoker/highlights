@@ -7,6 +7,14 @@ Read &amp; Recall.
 
 [Read & Recall.](https://derjoker.github.io/highlights/)
 
+Markdown 示例
+
+- 高亮：**提示**
+- 斜体：*无关内容*
+- 删除线：~~错误翻译~~
+- 补充：[替换内容]
+- 引用：> 解释说明/知识点
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at [derjoker/highlights](https://github.com/derjoker/highlights).
