@@ -28,10 +28,7 @@ layout: post
     const card = document.getElementById('card');
 
     card.querySelectorAll('del').forEach(d => {
-      const s = document.createElement('span');
-      s.textContent = d.textContent;
-      s.className = 'del-grey';
-      d.replaceWith(s);
+      d.className = 'del-grey';
     });
 
     card.querySelectorAll(':scope > p').forEach((p, key) => {
