@@ -41,23 +41,37 @@ layout: post
       }
     });
 
+    card.querySelectorAll(':scope > blockquote').forEach(b => {
+      b.classList.add('hidden');
+      b.addEventListener('click', event => {
+        b.classList.toggle('hidden');
+        event.stopPropagation();
+      });
+    });
+
     const button = document.createElement('button');
     button.textContent = '显示';
     button.addEventListener('click', () => {
       if (button.textContent === '显示') {
         button.textContent = '隐藏';
         card.querySelectorAll(':scope > p').forEach((p, key) => {
-        if (key % 2 === 1) {
-          p.classList.remove('hidden');
-        }
-      });
+          if (key % 2 === 1) {
+            p.classList.remove('hidden');
+          }
+        });
+        card.querySelectorAll(':scope > blockquote').forEach(b => {
+          b.classList.remove('hidden');
+        });
       } else {
         button.textContent = '显示';
         card.querySelectorAll(':scope > p').forEach((p, key) => {
-        if (key % 2 === 1) {
-          p.classList.add('hidden');
-        }
-      });
+          if (key % 2 === 1) {
+            p.classList.add('hidden');
+          }
+        });
+        card.querySelectorAll(':scope > blockquote').forEach(b => {
+          b.classList.add('hidden');
+        });
       }
     });
 
